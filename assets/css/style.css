@@ -29,9 +29,20 @@ nav {
     float: right;
 }
 
-#menu {
+#menu li {
     display: inline;
     line-height: 75px;
+}
+
+/* Hero image */
+
+#hero {
+    height: 600px;
+    width: 80%;
+    background: url(../images/hero.jpg) no-repeat center center;
+    margin: 5%;
+    border: 2%;
+    padding: 3%;
 }
 
 #menu a {
