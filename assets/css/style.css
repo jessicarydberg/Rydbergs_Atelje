@@ -70,14 +70,10 @@ nav {
 /* Text and image on hero image */
 
 #cover-info {
-    position: absolute;
+    position: relative;
     padding-left: 15%;
     font-size: 200%;
     padding-top: 5%;
-}
-
-#hero-outer {
-    position: relative;
 }
 
 #photo {
@@ -89,6 +85,41 @@ nav {
 
 #cover-info ul {
     padding: 3.1rem;
+}
+
+/* More info and merits */
+
+#merits {
+    float: right;
+    width: 40%;
+    padding: 2rem;
+}
+
+#merits ul {
+    font-size: 130%;
+    padding: 1rem;
+}
+
+#merits li {
+    padding: 1rem;
+}
+
+#about {
+    width: 40%;
+    font-size: 120%;
+    padding: 4rem;
+}
+
+#about p {
+    margin: 1rem;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
 
 /* media queries */
