@@ -13,3 +13,36 @@ body {
 h1, h2, h3 {
     font-family: Artifika, sans-serif;
 }
+
+section {
+    clear: both;
+}
+
+/* Header */
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+#menu {
+    display: inline;
+}
+
+#menu-links {
+    color: black;
+    text-decoration: none;
+    margin: 4px;
+}
+
+#menu-links:hover {
+    color:burlywood;
+}
+
+header {
+    margin: 30px;
+    padding-bottom: 30px;
+}
