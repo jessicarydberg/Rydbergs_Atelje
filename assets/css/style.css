@@ -22,14 +22,14 @@ section {
 /* Header */
 
 header {
-    margin: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0.6rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 #logo {
     float: left;
-    line-height: 75px;
+    line-height: 4.7rem;
 }
 
 nav {
@@ -38,19 +38,19 @@ nav {
 
 #menu li {
     display: inline;
-    line-height: 75px;
+    line-height: 4.7rem;
 }
 
 /* Hero image */
 
 #hero-image {
-    height: 450px;
+    height: 28rem;
     width: 80%;
     background: url(../images/hero.jpg) no-repeat center center;
     margin-left: 5%;
     border: 10px;
     padding-left: 3%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     position: absolute;
     border-style: double;
     border-color: black;
@@ -60,7 +60,7 @@ nav {
 #menu a {
     color: black;
     text-decoration: none;
-    margin: 4px;
+    margin: 0.25rem;
 }
 
 #menu a:hover {
@@ -81,12 +81,22 @@ nav {
 }
 
 #photo {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 10rem;
     border-radius: 50%;
     border-color: black;
 }
 
 #cover-info ul {
-    padding: 50px;
+    padding: 3.1rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 590px) {
+
+    nav, #logo {
+        width: 100%;
+        text-align: center;
+    }
 }
