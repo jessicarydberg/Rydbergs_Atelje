@@ -21,6 +21,12 @@ section {
 
 /* Header */
 
+header {
+    margin: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 #logo {
     float: left;
     line-height: 75px;
@@ -41,10 +47,14 @@ nav {
     height: 450px;
     width: 80%;
     background: url(../images/hero.jpg) no-repeat center center;
-    margin: 5%;
-    border: 2%;
-    padding: 3%;
+    margin-left: 5%;
+    border: 10px;
+    padding-left: 3%;
+    margin-top: 20px;
     position: absolute;
+    border-style: double;
+    border-color: black;
+    border-radius: 20%;
 }
 
 #menu a {
@@ -54,14 +64,7 @@ nav {
 }
 
 #menu a:hover {
-    color:rgb(253, 253, 252);
     text-decoration: underline;
-}
-
-header {
-    margin: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 /* Text and image on hero image */
@@ -70,7 +73,7 @@ header {
     position: absolute;
     padding-left: 15%;
     font-size: 200%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #hero-outer {
