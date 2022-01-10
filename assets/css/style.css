@@ -22,6 +22,7 @@ section {
 
 #logo {
     float: left;
+    line-height: 75px;
 }
 
 nav {
@@ -30,19 +31,23 @@ nav {
 
 #menu {
     display: inline;
+    line-height: 75px;
 }
 
-#menu-links {
+#menu a {
     color: black;
     text-decoration: none;
     margin: 4px;
 }
 
-#menu-links:hover {
+#menu a:hover {
     color:burlywood;
+    text-decoration: underline;
 }
 
 header {
-    margin: 30px;
+    margin: 20px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
