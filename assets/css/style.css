@@ -8,6 +8,7 @@
 
 body {
     font-family: Asul, sans-serif;
+    background: rgb(233, 199, 155);
 }
 
 h1, h2, h3 {
@@ -53,13 +54,12 @@ nav {
 }
 
 #menu a:hover {
-    color:burlywood;
+    color:rgb(253, 253, 252);
     text-decoration: underline;
 }
 
 header {
-    margin: 20px;
-    padding-bottom: 30px;
+    margin: 30px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -68,10 +68,22 @@ header {
 
 #cover-info {
     position: absolute;
-    padding: 20%;
+    padding-left: 15%;
     font-size: 200%;
+    padding-top: 10%;
 }
 
 #hero-outer {
     position: relative;
+}
+
+#photo {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    border-color: black;
+}
+
+#cover-info ul {
+    padding: 50px;
 }
