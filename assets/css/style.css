@@ -70,6 +70,7 @@ ol li {
     background: url(../images/hero.jpg) no-repeat center center;
     position: absolute;
     margin-left: 5rem;
+    filter: sepia(30%);
 }
 
 .border {
@@ -92,6 +93,7 @@ ol li {
     width: 10rem;
     margin-top: 5rem;
     border-radius: 50%;
+    filter: sepia(30%);
 }
 
 /* About section */
@@ -120,8 +122,8 @@ h3 {
     width: 90vw;
     line-height: 3rem;
     column-count: 4;
-
     padding: 2rem;
+    filter: sepia(30%);
 }
 
 #images img {
@@ -134,6 +136,7 @@ iframe {
     margin-top: 2rem;
     height: 12rem;
     width: 30rem;
+    filter: sepia(30%);
 }
 
 .block {
@@ -180,6 +183,10 @@ footer p {
 
 /* media queries */
 
+@media screen and (max-width: 1110px)
+
+
+/*
 @media screen and (max-width: 1110px) {
 
     #about, #merits {
@@ -252,3 +259,5 @@ footer p {
         width: 80vw;
     }
 }
+
+*/
