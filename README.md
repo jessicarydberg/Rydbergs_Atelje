@@ -1,3 +1,9 @@
+/* info
+
+https://imagecolorpicker.com/ used this to pick color from hero image
+
+*/
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome jessicarydberg,
