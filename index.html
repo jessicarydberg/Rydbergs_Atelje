@@ -69,15 +69,44 @@
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <div>
+        <div class="left">
             <p>Come visit me in my Studio or get in touch using the form below</p>
-            <form action=""></form>
-        </div>
-        <div>
+            <br>
+            <p>Essinge Brogata 6</p>
+            <br>
+            <p>112 57 Stockholm</p>
             <iframe class="border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.4612125179508!2d18.00512171596222!3d59.32525338165743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f762db965a999%3A0xda0cfef2349eeed1!2sEssinge%20Brogata%206%2C%20112%2061%20Stockholm!5e0!3m2!1ssv!2sse!4v1641992566919!5m2!1ssv!2sse"></iframe>
         </div>
+        <div>
+            <p></p>
+            <form method="post" action="#">
+                <legend>Please enter your contact information and I will get back to you as soon as possible.</legend>
+                <br>
+                <div id="input">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="phone">Phone number</label>
+                    <br>
+                    <input type="number" id="phone">
+                    <br>
+                    <label for="email">Email address</label>
+                    <br>
+                    <input type="email" id="email">
+                </div>
+                <label for="text">Describe your quest</label>
+                <br>
+                <textarea name="textarea" id="text" cols="30" rows="10"></textarea>
+                <br>
+                <label for="monthly-letter">Sign up for monthly letter</label>
+                <input type="checkbox" name="Sign up for monthly letter" id="monthly-letter">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
-    <footer>
+    <footer style="clear:both">
         Social media links
     </footer>
 </body>
