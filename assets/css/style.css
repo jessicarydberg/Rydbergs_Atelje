@@ -31,7 +31,7 @@ ul li {
     padding: 3rem, 1rem, 3rem, 1rem;
 }
 
-header, section {
+header, section, footer {
     margin: 0.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -152,6 +152,11 @@ label {
 
 #monthly-letter label {
     display: inline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
 }
 
 /* media queries */
