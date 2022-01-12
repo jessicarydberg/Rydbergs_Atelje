@@ -183,11 +183,7 @@ footer p {
 
 /* media queries */
 
-@media screen and (max-width: 1110px)
-
-
-/*
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1200px) {
 
     #about, #merits {
         position: relative;
@@ -259,5 +255,3 @@ footer p {
         width: 80vw;
     }
 }
-
-*/
