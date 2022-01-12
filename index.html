@@ -79,28 +79,29 @@
         </div>
         <div>
             <p></p>
-            <form method="post" action="#">
+            <form method="post" action="#" class="right">
                 <legend>Please enter your contact information and I will get back to you as soon as possible.</legend>
                 <br>
                 <div id="input">
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name">
-                    <br>
-                    <label for="phone">Phone number</label>
-                    <br>
-                    <input type="number" id="phone">
-                    <br>
-                    <label for="email">Email address</label>
-                    <br>
-                    <input type="email" id="email">
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="block">
+                    </fieldset>
+                    <fieldset>
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" class="block">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="block">
+                    </fieldset>
                 </div>
-                <label for="text">Describe your quest</label>
                 <br>
-                <textarea name="textarea" id="text" cols="60" rows="10"></textarea>
+                <label for="text">Describe your quest</label>
+                <textarea name="textarea" id="text" cols="60" rows="10" class="block"></textarea>
                 <br>
                 <input type="checkbox" name="Sign up for monthly letter" id="monthly-letter">
-                <label for="monthly-letter">Sign up for monthly letter</label>
+                <label for="monthly-letter" style="display: inline;">Sign up for monthly letter</label>
                 <br>
                 <input type="submit" value="Submit" class="block">
             </form>
