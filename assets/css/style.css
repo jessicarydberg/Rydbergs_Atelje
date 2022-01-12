@@ -54,7 +54,7 @@ nav {
 /* Hero image */
 #hero-image {
     height: 28rem;
-    width: 80%;
+    width: 80vw;
     background: url(../images/hero.jpg) no-repeat center center;
     margin-left: 5%;
     border: 10px;
@@ -90,7 +90,7 @@ nav {
 
 #merits {
     float: right;
-    width: 40%;
+    width: 40vw;
     padding: 2rem;
 }
 
@@ -104,9 +104,10 @@ nav {
 }
 
 #about {
-    width: 40%;
+    width: 40vw;
     font-size: 120%;
     padding: 4rem;
+    position: absolute;
 }
 
 #about p {
@@ -127,7 +128,7 @@ nav {
 
 /* media queries */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 690px) {
 
     nav, #logo {
         width: 100%;
@@ -141,6 +142,20 @@ nav {
     }
     #cover-info {
         font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    #about, #merits {
+        position: relative;
+        width: 70vw;
+        float: left;
+    }
+   
+    #merits ul {
+        display: inline-block;
+        float: none;
     }
 }
 
