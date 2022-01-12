@@ -13,7 +13,6 @@ body {
 
 h1, h2, h3 {
     font-family: Artifika, sans-serif;
-    font-size: xx-large;
 }
 
 section {
@@ -107,11 +106,19 @@ nav {
     padding: 1rem;
 }
 
+#merits h3 {
+    text-decoration: underline;
+}
+
 #about {
     width: 40vw;
     font-size: 120%;
-    padding: 4rem;
+    padding: 2rem;
     position: absolute;
+}
+
+#about h2 {
+    margin-left: 1rem;
 }
 
 #about p {
@@ -124,10 +131,6 @@ nav {
 
 .left {
     float: left;
-}
-
-.center {
-    text-align: center;
 }
 
 /* Gallery */
@@ -145,9 +148,9 @@ nav {
 }
 
 #gallery h2 {
-    text-align: center;
     margin: 2rem;
     padding: 3rem 2rem 2rem 2rem;
+    text-align: center;
 }
 
 /* media queries */
