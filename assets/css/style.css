@@ -13,6 +13,7 @@ body {
 
 h1, h2, h3 {
     font-family: Artifika, sans-serif;
+    font-size: xx-large;
 }
 
 section {
@@ -57,10 +58,13 @@ nav {
     width: 80vw;
     background: url(../images/hero.jpg) no-repeat center center;
     margin-left: 5%;
-    border: 10px;
     padding-left: 3%;
     margin-top: 1.25rem;
     position: absolute;
+}
+
+.border {
+    border-width: 0.6rem;
     border-style: double;
     border-color: black;
     border-radius: 20%;
@@ -124,6 +128,26 @@ nav {
 
 .center {
     text-align: center;
+}
+
+/* Gallery */
+
+#images {
+    width: 90vw;
+    clear: both;
+    line-height: 3rem;
+    column-count: 4;
+    margin: 0 auto;
+}
+
+#images img {
+    width: 20vw;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin: 2rem;
+    padding: 3rem 2rem 2rem 2rem;
 }
 
 /* media queries */
