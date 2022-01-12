@@ -15,51 +15,60 @@ h1, h2, h3 {
     font-family: Artifika, sans-serif;
 }
 
-section {
+p, label, a {
+    font-size: 120%;
+    color: black;
+    text-decoration: none;
+    margin: 0.25rem;
+}
+
+ul li {
+    font-size: 150%;
+    margin: 1rem;
+}
+
+.title {
+    padding: 3rem, 1rem, 3rem, 1rem;
+}
+
+header, section {
+    margin: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     clear: both;
 }
 
-/* Header */
-header {
-    margin: 0.6rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+a:hover {
+    text-decoration: underline;
 }
 
-#logo {
+/* Header */
+
+h1 {
     float: left;
     line-height: 4.7rem;
+    padding-left: 3rem;
+    font-size: 240%;
 }
 
 nav {
     float: right;
+    padding-right: 3rem;
 }
 
-#menu li {
+ol li {
     display: inline;
     line-height: 4.7rem;
 }
 
-#menu a {
-    color: black;
-    text-decoration: none;
-    margin: 0.25rem;
-    font-size: 120%;
-}
-
-#menu a:hover {
-    text-decoration: underline;
-}
-
 /* Hero image */
-#hero-image {
+
+#hero {
     height: 28rem;
     width: 80vw;
     background: url(../images/hero.jpg) no-repeat center center;
-    margin-left: 5%;
-    padding-left: 3%;
-    margin-top: 1.25rem;
     position: absolute;
+    margin-left: 5rem;
 }
 
 .border {
@@ -71,58 +80,29 @@ nav {
 
 /* Cover text and photo */
 
-#cover-info {
+#cover {
     position: relative;
-    padding-left: 15%;
-    font-size: 200%;
-    padding-top: 5%;
+    padding-left: 20rem;
+    padding-top: 5rem;
 }
 
 #photo {
     height: auto;
     width: 10rem;
+    margin-top: 5rem;
     border-radius: 50%;
-    border-color: black;
-}
-
-#cover-info ul {
-    padding: 3.1rem;
 }
 
 /* About section */
-
-#merits {
-    float: right;
+.floatblock {
     width: 40vw;
     padding: 2rem;
 }
 
-#merits ul {
-    font-size: 130%;
-    padding: 1rem;
-}
-
-#merits li {
-    padding: 1rem;
-}
-
-#merits h3 {
+h3 {
     text-decoration: underline;
-}
-
-#about {
-    width: 40vw;
-    font-size: 120%;
-    padding: 2rem;
-    position: absolute;
-}
-
-#about h2 {
-    margin-left: 1rem;
-}
-
-#about p {
-    margin: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 .right {
@@ -135,30 +115,23 @@ nav {
 
 /* Gallery section */
 
-#images {
+#gallery {
     width: 90vw;
-    clear: both;
     line-height: 3rem;
     column-count: 4;
-    margin: 0 auto;
+
+    padding: 2rem;
 }
 
-#images img {
+#gallery img {
     width: 20vw;
-}
-
-#gallery h2 {
-    margin: 2rem;
-    padding: 3rem 2rem 2rem 2rem;
-    text-align: center;
-    font-size: xx-large;
 }
 
 /* Contact section */
 
 iframe {
-    margin: 2rem;
-    height: 20rem;
+    margin-top: 2rem;
+    height: 17rem;
     width: 30rem;
 }
 
