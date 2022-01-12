@@ -116,7 +116,7 @@ h3 {
 
 /* Gallery section */
 
-#gallery {
+#images {
     width: 90vw;
     line-height: 3rem;
     column-count: 4;
@@ -124,7 +124,7 @@ h3 {
     padding: 2rem;
 }
 
-#gallery img {
+#images img {
     width: 20vw;
 }
 
@@ -132,7 +132,7 @@ h3 {
 
 iframe {
     margin-top: 2rem;
-    height: 17rem;
+    height: 12rem;
     width: 30rem;
 }
 
