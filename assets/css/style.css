@@ -155,11 +155,41 @@ nav {
 
 /* media queries */
 
+@media screen and (max-width: 1110px) {
+
+    #about, #merits {
+        position: relative;
+        width: 70vw;
+        float: left;
+    }
+
+    #images {
+        column-count: 3;
+    }
+
+    #images img {
+        width: 25vw;
+    }
+   
+    #merits ul {
+        display: inline-block;
+        float: none;
+    }
+}
+
 @media screen and (max-width: 690px) {
 
     nav, #logo {
         width: 100%;
         text-align: center;
+    }
+
+    #images {
+        column-count: 2;
+    }
+
+    #images img {
+        width: 40vw;
     }
 }
 
@@ -169,20 +199,6 @@ nav {
     }
     #cover-info {
         font-size: 120%;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-
-    #about, #merits {
-        position: relative;
-        width: 70vw;
-        float: left;
-    }
-   
-    #merits ul {
-        display: inline-block;
-        float: none;
     }
 }
 
@@ -202,5 +218,12 @@ nav {
     }
     #cover-info {
         font-size: 100%;
+    }
+    #images {
+        column-count: 1;
+    }
+
+    #images img {
+        width: 80vw;
     }
 }
