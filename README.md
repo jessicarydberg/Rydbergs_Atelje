@@ -5,7 +5,7 @@
 
 Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to comunicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It helps the owner to show off her work and reach
 
- ---> Mockupimage
+ <img src="assets/images/Mockup Rydbergs Ateljé.jpg" alt="Mockup">
 
 ## Features
 
@@ -72,7 +72,9 @@ This section is also possible to reach using the navigation bar.</li>
 </ul>
 
 # Credits
-
+<ul>
+<li>This page gave me some usefull code https://www.w3schools.com</li>
+</ul>
 ## Media
 
 ## Content
