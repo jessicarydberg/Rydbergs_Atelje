@@ -222,7 +222,8 @@ footer p {
         #hero {
             margin-left: 3rem;
         }
-
+    }
+    
     @media screen and (max-width: 750px) {
 
         #left, #right {
@@ -255,6 +256,7 @@ footer p {
         body { 
             overflow-x: hidden;
         }
+    }
 
         @media screen and (max-width: 450px){
             h1 {
@@ -304,6 +306,5 @@ footer p {
             #photo {
                 margin-top: 1rem;
             }
-
         }
     }
