@@ -49,12 +49,10 @@ h1 {
     line-height: 4.7rem;
     padding-left: 3rem;
     font-size: 240%;
-    float: left;
 }
 
 nav {
     padding-right: 3rem;
-    float: right;
 }
 
 ol li {
@@ -66,7 +64,7 @@ ol li {
 
 #hero {
     height: 28rem;
-    width: 80vw;
+    width: 80%;
     background: url(../images/hero.jpg) no-repeat center center;
     position: absolute;
     margin-left: 5rem;
@@ -84,7 +82,7 @@ ol li {
 
 #cover {
     position: relative;
-    padding-left: 20rem;
+    padding-left: 20%;
     padding-top: 5rem;
 }
 
@@ -98,7 +96,7 @@ ol li {
 
 /* About section */
 .floatblock {
-    width: 40vw;
+    width: 40%;
     padding: 2rem;
 }
 
@@ -116,10 +114,18 @@ h3 {
     float: left;
 }
 
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
 /* Gallery section */
 
 #images {
-    width: 90vw;
+    width: 90%;
     line-height: 3rem;
     column-count: 4;
     padding: 2rem;
@@ -127,7 +133,7 @@ h3 {
 }
 
 #images img {
-    width: 20vw;
+    width: 90%;
 }
 
 /* Contact section */
@@ -135,7 +141,7 @@ h3 {
 iframe {
     margin-top: 2rem;
     height: 12rem;
-    width: 30rem;
+    width: 100%;
     filter: sepia(30%);
 }
 
@@ -148,6 +154,10 @@ iframe {
 
 fieldset {
     display: inline;
+}
+
+textarea {
+    width: 90%;
 }
 
 label {
@@ -183,118 +193,113 @@ footer p {
 
 /* media queries */
 
-@media screen and (max-width: 770px) {
-    h1, nav {
-        text-align: center;
-        padding: 0;
-        float: none;
-    }
-}
+@media screen and (max-width: 1230px) {
 
-@media screen and (max-width: 450px) {
-    h1 {
-        font-size: 190%;
-    }
-
-/* smallest: Galaxy fold */
-    @media screen and (max-width: 280px) {
-    h1 {
-        font-size: 130%;
-        line-height: 2rem;
-    }
-    p, label, a {
-        font-size: 100%;
-    }
-    ol, li {
-        line-height: 2rem;
-    }    
-    #hero {
-        margin: 0;
-        height: 20rem;
-        width: 88vw;
-    }
-    #cover {
-        padding-left: 1rem;
-        padding-top: 2rem;
-    }
     ul li {
-        list-style: none;
-    }
-    header, section {
-        padding: 0;
-    }
-    }
-}
-/*
-@media screen and (max-width: 1200px) {
-
-    #about, #merits {
-        position: relative;
-        width: 70vw;
-        float: left;
+        margin: 1rem 0 1rem 0;
     }
 
-    #images {
-        column-count: 3;
-    }
+    @media screen and (max-width: 1130px) {
+        .left, .right {
+            float: none;
+            width: 90%;
+        }
 
-    #images img {
-        width: 25vw;
-    }
-   
-    #merits ul {
-        display: inline-block;
-        float: none;
-    }
-}
+        nav, h1 {
+            padding: 0;
+            text-align: center;
+        }
 
-@media screen and (max-width: 690px) {
+        #images {
+            column-count: 3;
+        }
 
-    nav, #logo {
-        width: 100%;
-        text-align: center;
-    }
+        #collaborations {
+            width: 80%;
+            margin: 0 auto;
+        }
 
-    #images {
-        column-count: 2;
-    }
+        #hero {
+            margin-left: 3rem;
+        }
 
-    #images img {
-        width: 40vw;
-    }
-}
+    @media screen and (max-width: 750px) {
 
-@media screen and (max-width: 450px) {
-    #menu {
-        font-size: 90%;
-    }
-    #cover-info {
-        font-size: 120%;
-    }
-}
+        #left, #right {
+            float: none;
+            text-align: center;
+            list-style: none;
+        }
 
-@media screen and (max-width: 350px) {
-    #menu {
-        letter-spacing: 0;
-        font-size: 80%;
-    }
-    #logo {
-        font-size: 150%;
-        margin-top: 1.5rem;
-        line-height: 0;
-        font-size: 130%;
-    }
-    #menu a {
-        margin: 0;
-    }
-    #cover-info {
-        font-size: 100%;
-    }
-    #images {
-        column-count: 1;
-    }
+        #images {
+            column-count: 2;
+            height: 250vw;
+        }
+        header, section {
+            padding: 0;
+        }
+        .floatblock {
+            padding: 1rem;
+        }
 
-    #images img {
-        width: 80vw;
+        p, label, a {
+            font-size: 110%;
+            margin: 0.2rem;
+        }
+        
+        ul li {
+            font-size: 140%;
+            margin: 0.5rem;
+        }
+
+        @media screen and (max-width: 450px){
+            h1 {
+                font-size: 180%
+            }
+
+            ol {
+                height: 3rem;
+            }
+
+            #images {
+                column-count: 1;
+                height: auto;
+            }
+
+            #about {
+                text-align: center;
+                padding-top: 2rem;
+            }
+
+            fieldset {
+                display: block;
+            }
+
+            #about h2 {
+                text-align: left;
+            }
+
+            #cover li {
+                list-style: none;
+            }
+
+            #hero {
+                margin: 1rem;
+            }
+
+            p, label, a {
+                font-size: 100%;
+                margin: 0.1rem;
+            }
+            
+            ul li {
+                font-size: 120%;
+                margin: 0.2rem;
+            }
+
+            #photo {
+                margin-top: 1rem;
+            }
+
+        }
     }
-}
