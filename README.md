@@ -1,114 +1,75 @@
-/* info
 
-https://imagecolorpicker.com/ used this to pick color from hero image
+[used this to pick color from hero image](https://imagecolorpicker.com/)
 
-*/
+# Rydbergs Ateljé
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to comunicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It helps the owner to show off her work and reach
 
-Welcome jessicarydberg,
+ ---> Mockupimage
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Navigation Bar andd Logo
+<ul>
+<li>You will find the navigationbar with three links at the right top of the page. Theese helps the user to navigate faster down the page in those cases where they only need some specific information. The links turn white when you hover over them to make it clear for the user that "this is a link"</li>
+</ul>
+<img src="assets/images/nav bar.png" alt="navigation bar">
 
-## Gitpod Reminders
+### Welcome section
+<ul>
+<li>The first section that the user meets while entering the site is designed to give the user a clear picture of where they have come and what they will find here. They will see a picture of the person behind the work they are interested in and some short info about what skills she have. The colors, pictureas and design will give the visitor a feeling of what kind of design and style her work provides.</li>
+</ul>
+<img src="assets/images/Hero image.png" alt="Welcome section">
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### About section
+<ul>
+<li>The second section if easy to acces with the navigation bar but also possible to scroll down to. Here is a more descriptive information about the skills and experience the owner of Rydbergs Atleljé has. It gives information about what kind of service she offers and what you can expect from her work.</li>
 
-`python3 -m http.server`
+<li>The previous collaborations part uses links so the visitor can visit their sites to see what kind of business they have. This will give the user even more information about the owners earlier experiences.</li>
+</ul>
+<img src="assets/images/about section.png" alt="About section">
 
-A blue button should appear to click: _Make Public_,
+### Gallery
+<ul>
+<li>The third section provides more information about the owners work but this time in images. The images again, gives the visitor a feeling of style and design but also what kind of clothings she has done and usually do.
+This section is also possible to reach using the navigation bar.</li>
+</ul>
+<img src="assets/images/gallery.png" alt="Gallery">
 
-Another blue button should appear to click: _Open Browser_.
+### Contact
+<ul>
+<li>The forth section provides information about where or how to get in touch with Rydbergs Ateljé. It shows the adress and a map to where the studio is located but also a simple form where the user can fill in contact information and a short message to reach out to the owner in an easy way.</li>
+</ul>
+<img src="assets/images/contact section.jpg" alt="Contact section">
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Footer
+<ul>
+<li>The footer is really small but handy because it provides links for socialmedia for those who are even more interested in getting to know the owner of Rydbergs Ateljé. For marketing, this is perhaps the most important links the owner wants the customer to find, because of that the position of this is fixed so it is easy to find regardless on where you are at the website.</li>
+</ul>
+<img src="assets/images/footer.jpg" alt="Footer">
 
-A blue button should appear to click: _Make Public_,
+## Testing
 
-Another blue button should appear to click: _Open Browser_.
+## Validator Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Unfixed bugs
 
-To log into the Heroku toolbelt CLI:
+# Deployment
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### The site was deployed to GitHub pages. The steps to deploy are as follows:
+<ul>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<li>The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html</li>
+</ul>
 
-------
+# Credits
 
-## Release History
+## Media
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Content
+<ul>
+<li>Used this to pick color from hero image: https://imagecolorpicker.com/</li>
+</ul>
