@@ -48,6 +48,12 @@ This section is also possible to reach using the navigation bar.</li>
 </ul>
 <img src="assets/images/footer.jpg" alt="Footer">
 
+### Extra features for future developement
+<ul>
+<li>A copy of the whole page but with all swedish text, two links in the header with to navigate between the two languages</li>
+<li>Make all the list items beneath "Previous collaborations" also work as links to the websites that gives more information about the earlier customer</li>
+</ul>
+
 ## Testing
 
 ## Validator Testing
@@ -72,4 +78,10 @@ This section is also possible to reach using the navigation bar.</li>
 ## Content
 <ul>
 <li>Used this to pick color from hero image: https://imagecolorpicker.com/</li>
+<li>Google fonts</li>
+<li>font awesome for footer links</li>
+<li>spencers links to pictures</li>
+<li>name of the photographer of my own photos? or just "Jessica Rydbergs private photos"</li>
+
+<li>Find out a way to remove classes when screens a smaller, then I can give h1 and nav class "left" and "right"</li>
 </ul>

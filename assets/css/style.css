@@ -46,15 +46,15 @@ a:hover {
 /* Header */
 
 h1 {
-    float: left;
     line-height: 4.7rem;
     padding-left: 3rem;
     font-size: 240%;
+    float: left;
 }
 
 nav {
-    float: right;
     padding-right: 3rem;
+    float: right;
 }
 
 ol li {
@@ -183,6 +183,49 @@ footer p {
 
 /* media queries */
 
+@media screen and (max-width: 770px) {
+    h1, nav {
+        text-align: center;
+        padding: 0;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 190%;
+    }
+
+/* smallest: Galaxy fold */
+    @media screen and (max-width: 280px) {
+    h1 {
+        font-size: 130%;
+        line-height: 2rem;
+    }
+    p, label, a {
+        font-size: 100%;
+    }
+    ol, li {
+        line-height: 2rem;
+    }    
+    #hero {
+        margin: 0;
+        height: 20rem;
+        width: 88vw;
+    }
+    #cover {
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    ul li {
+        list-style: none;
+    }
+    header, section {
+        padding: 0;
+    }
+    }
+}
+/*
 @media screen and (max-width: 1200px) {
 
     #about, #merits {
