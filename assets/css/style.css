@@ -35,8 +35,8 @@ header, section {
     clear: both;
 }
 
-a:hover {
-    color: white;
+a:hover, #submit:hover {
+    color: gray
 }
 
 /* Header */
