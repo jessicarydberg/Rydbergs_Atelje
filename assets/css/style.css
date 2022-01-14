@@ -76,7 +76,7 @@ ol li {
 
 /* Cover text and photo */
 
-#cover {
+#cover-info {
     position: relative;
     padding-left: 20%;
     padding-top: 5rem;
@@ -102,20 +102,12 @@ h3 {
     text-align: center;
 }
 
-.right {
+.right, #collaborations-right {
     float: right;
 }
 
-.left {
+.left, #collaborations-left {
     float: left;
-}
-
-#left {
-    float: left;
-}
-
-#right {
-    float: right;
 }
 
 /* Gallery section */
@@ -164,8 +156,8 @@ label {
     display: inline;
 }
 
-#last-section {
-    margin-bottom: 2rem;
+form {
+    margin-bottom: 1rem;
 }
 
 /* Footer */
@@ -194,113 +186,116 @@ footer p {
     ul li {
         margin: 1rem 0 1rem 0;
     }
+}
 
-    @media screen and (max-width: 1130px) {
-        .left, .right {
-            float: none;
-            width: 90%;
-        }
+@media screen and (max-width: 1130px) {
 
-        nav, h1 {
-            padding: 0;
-            text-align: center;
-        }
-
-        #images {
-            column-count: 3;
-        }
-
-        #collaborations {
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        #hero {
-            margin-left: 3rem;
-        }
+    .left, .right {
+        float: none;
+        width: 90%;
     }
 
-    @media screen and (max-width: 750px) {
+    nav, h1 {
+        padding: 0;
+        text-align: center;
+    }
 
-        #left, #right {
-            float: none;
-            text-align: center;
-            list-style: none;
-        }
+    #images {
+        column-count: 3;
+    }
 
-        #images {
-            column-count: 2;
-            height: 250vw;
-        }
-        header, section {
-            padding: 0;
-        }
-        .floatblock {
-            padding: 0.5rem;
-        }
+    #collaborations {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-        p, label, a {
-            font-size: 110%;
-            margin: 0.2rem;
-        }
+    #hero {
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    #collaborations-left, #collaborations-right {
+        float: none;
+        text-align: center;
+        list-style: none;
+    }
+
+    #images {
+        column-count: 2;
+        height: 251vw;
+    }
+    
+    header, section {
+        padding: 0;
+    }
+    
+    .floatblock {
+        padding: 0.5rem;
+    }
+
+    p, label, a {
+        font-size: 110%;
+        margin: 0.2rem;
+    }
         
-        ul li {
-            font-size: 140%;
-            margin: 0.5rem;
-        }
-
-        body { 
-            overflow-x: hidden;
-        }
+    ul li {
+        font-size: 140%;
+        margin: 0.5rem;
     }
 
-        @media screen and (max-width: 450px){
-            h1 {
-                font-size: 180%
-            }
+    body { 
+        overflow-x: hidden;
+    }
+}
 
-            ol {
-                height: 3rem;
-            }
+@media screen and (max-width: 450px){
+    h1 {
+        font-size: 180%
+    }
 
-            #images {
-                column-count: 1;
-                height: auto;
-            }
+    ol {
+        height: 3rem;
+    }
 
-            #about {
-                text-align: center;
-                padding-top: 2rem;
-            }
+    #images {
+        column-count: 1;
+        height: auto;
+    }
 
-            fieldset {
-                display: block;
-            }
+    #about {
+        text-align: center;
+        padding-top: 2rem;
+    }
 
-            #about h2 {
-                text-align: left;
-            }
+    fieldset {
+        display: block;
+    }
 
-            #cover li {
-                list-style: none;
-            }
+    #about h2 {
+        text-align: left;
+    }
 
-            #hero {
-                margin: 1rem;
-            }
+    #cover-info li {
+        list-style: none;
+    }
 
-            p, label, a {
-                font-size: 100%;
-                margin: 0.1rem;
-            }
+    #hero {
+        margin: 1rem;
+    }
+
+    p, label, a {
+        font-size: 100%;
+        margin: 0.1rem;
+    }
             
-            ul li {
-                font-size: 120%;
-                margin: 0.2rem;
-            }
-
-            #photo {
-                margin-top: 1rem;
-            }
-        }
+    ul li {
+        font-size: 120%;
+        margin: 0.2rem;
     }
+
+    #photo {
+        margin-top: 1rem;
+    }
+}
