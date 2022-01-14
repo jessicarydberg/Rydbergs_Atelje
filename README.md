@@ -5,7 +5,7 @@
 
 Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to comunicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It helps the owner to show off her work and reach
 
- <img src="assets/images/Mockup Rydbergs Ateljé.jpg" alt="Mockup">
+ <img src="assets/images/mockup.jpg" alt="Mockup">
 
 ## Features
 
@@ -13,13 +13,13 @@ Rydbergs Ateljé is a website that provides information about the person behind 
 <ul>
 <li>You will find the navigationbar with three links at the right top of the page. Theese helps the user to navigate faster down the page in those cases where they only need some specific information. The links turn white when you hover over them to make it clear for the user that "this is a link"</li>
 </ul>
-<img src="assets/images/nav bar.png" alt="navigation bar">
+<img src="assets/images/screenshot-header.png" alt="navigation bar">
 
 ### Welcome section
 <ul>
 <li>The first section that the user meets while entering the site is designed to give the user a clear picture of where they have come and what they will find here. They will see a picture of the person behind the work they are interested in and some short info about what skills she have. The colors, pictureas and design will give the visitor a feeling of what kind of design and style her work provides.</li>
 </ul>
-<img src="assets/images/Hero image.png" alt="Welcome section">
+<img src="assets/images/screenshot-hero.png" alt="Welcome section">
 
 ### About section
 <ul>
@@ -27,26 +27,26 @@ Rydbergs Ateljé is a website that provides information about the person behind 
 
 <li>The previous collaborations part uses links so the visitor can visit their sites to see what kind of business they have. This will give the user even more information about the owners earlier experiences.</li>
 </ul>
-<img src="assets/images/about section.png" alt="About section">
+<img src="assets/images/screenshot-about.png" alt="About section">
 
 ### Gallery
 <ul>
 <li>The third section provides more information about the owners work but this time in images. The images again, gives the visitor a feeling of style and design but also what kind of clothings she has done and usually do.
 This section is also possible to reach using the navigation bar.</li>
 </ul>
-<img src="assets/images/gallery.png" alt="Gallery">
+<img src="assets/images/screenshot-gallery.png" alt="Gallery">
 
 ### Contact
 <ul>
 <li>The forth section provides information about where or how to get in touch with Rydbergs Ateljé. It shows the adress and a map to where the studio is located but also a simple form where the user can fill in contact information and a short message to reach out to the owner in an easy way.</li>
 </ul>
-<img src="assets/images/contact section.jpg" alt="Contact section">
+<img src="assets/images/screenshot-contact.jpg" alt="Contact section">
 
 ### Footer
 <ul>
 <li>The footer is really small but handy because it provides links for socialmedia for those who are even more interested in getting to know the owner of Rydbergs Ateljé. For marketing, this is perhaps the most important links the owner wants the customer to find, because of that the position of this is fixed so it is easy to find regardless on where you are at the website.</li>
 </ul>
-<img src="assets/images/footer.jpg" alt="Footer">
+<img src="assets/images/screenshot-footer.jpg" alt="Footer">
 
 ### Extra features for future developement
 <ul>

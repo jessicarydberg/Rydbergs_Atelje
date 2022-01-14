@@ -61,7 +61,7 @@ ol li {
 #hero {
     height: 28rem;
     width: 80%;
-    background: url(../images/hero.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     position: absolute;
     margin-left: 5rem;
     filter: sepia(30%);
