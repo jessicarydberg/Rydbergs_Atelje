@@ -1,6 +1,6 @@
 
 # Rydbergs Ateljé
-Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to comunicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It also helps the owner to show off her work and reach out to new costumers
+Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to communicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It also helps the owner to show off her work and reach out to new costumers
 
 ## Wireframe
 This was my design idea from the beginning:
@@ -12,7 +12,7 @@ This was my design idea from the beginning:
 ### Navigation Bar
 <ul>
     <li>You will find the navigationbar with four links at the right top of the page. Theese helps the user to navigate faster down the page in those cases where they only need some specific information. The links turn brown when you hover over them to show the user that "this is a link".</li>
-    <li>The navigation bar has a fixed position which gives the user easy access to it regardless on where you are at the page</li>
+    <li>The navigationbar has a fixed position which gives the user easy access to it regardless on where you are at the page</li>
 </ul>
 <img src="assets/images/screenshot-navigation-bar.jpg" alt="navigation bar">
 
@@ -32,20 +32,20 @@ This was my design idea from the beginning:
 ### Gallery
 <ul>
     <li>The third section provides more information about the owners work but this time in images. The images, again, gives the visitor a feeling of style and design but also what kind of clothings she has done and usually do.
-This section is also possible to reach using the navigation bar.</li>
+    This section is also possible to reach using the navigationbar.</li>
 </ul>
 <img src="assets/images/screenshot-gallery.png" alt="Gallery">
 
 ### Contact
 <ul>
-    <li>The forth section provides information about where or how to get in touch with Rydbergs Ateljé. It shows the adress and a map to where the studio is located. If you click on the map it will open up in google maps where the user easier can understand where and how to find the studio.</li>
+    <li>The fourth section provides information about where and how to get in touch with Rydbergs Ateljé. It shows the adress and a map to where the studio is located. If you click on the map it will open up in google maps where the user easier can understand where and how to find the studio.</li>
     <li>Here you can also find a simple form where the user can fill in contact information and a short message to reach out to the owner in an easy way</li>
 </ul>
 <img src="assets/images/screenshot-contact.jpg" alt="Contact section">
 
 ### Footer
 <ul>
-    <li>The footer contains two social media links. They are a bit bigger and has some space between them also on the smallest srean to make it easier to click them with a finger on a mobile phone</li>
+    <li>The footer contains two social media links. They are a bit bigger and has some space between them also on the smallest screan to make it easier to click them with a finger on a mobile phone</li>
 </ul>
 <img src="assets/images/screenshot-footer.jpg" alt="Footer">
 
@@ -57,8 +57,8 @@ This section is also possible to reach using the navigation bar.</li>
 ## Testing
 <ul>
     <li>The links in the navigation bar works well, brings me down to the section with the same name.</li>
-    <li>Social media links takes me to the right pages and opens up in a new tab (Though the company that the website presents dont have any social media right now it only leads to Instagram and Facebooks homepage, this is easy to change when the company has its own socialmedia to link to)</li>
-    <li>The form works well, the "Phonenumber" field doesent approve letters and the "Email" field doesent approve content without @ in it. When you click the submit button it will take you to an error site, this is because the "action" attribute is not linked to anything yet.</li>
+    <li>Social media links takes me to the right pages and opens up in a new tab (Though the company that the website presents dont have any social media right now it only leads to Instagram and Facebooks homepage, this is easy to change in the future when the company has its own socialmedia page to link to)</li>
+    <li>The form works well, the "Email" field doesent approve content without @ in it and when you click "send" it doesent approve if the user hasent entered information in all fields. When you click the submit button it will take you to an error site, this is because the "action" attribute is not linked to anything yet.</li>
     <li>The map in the contact section brings you to google maps and opens up in a new tab</li>
     <li>The website changes its layout when you make the screen bigger or smaller. It is tested and looks good on all screenwidths between 1920px and 250px.</li>
     <img src="assets/images/screenshot-mockup.jpg" alt="Mockup">
@@ -96,14 +96,14 @@ This section is also possible to reach using the navigation bar.</li>
 
 # Credits
 <ul>
-<li>https://www.w3schools.com helped me some usefull elements.</li>
+<li>https://www.w3schools.com/ helped me some usefull elements.</li>
 </ul>
 
 ## Content
 <ul>
     <li>https://imagecolorpicker.com/ was used for picking a color from the hero image and use it as background color for the footer.</li>
     <li>The font styles are imported from https://fonts.google.com/</li>
-    <li>The icons for social media links are were taken from https://fontawesome.com/</a></li>
+    <li>The icons for social media links were taken from https://fontawesome.com/</li>
     <li>The mockup presented in the readme file was made using http://techsini.com/multi-mockup/index.php/</li>
 </ul>
 
