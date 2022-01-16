@@ -10,6 +10,7 @@
     <title>Rydbergs Ateljé</title>
 </head>
 <body>
+    <!--Header: Logo and navigation--> 
     <header>
         <h1 class="left">Rydbergs Ateljé</h1>
         <nav class="right">
@@ -20,96 +21,103 @@
             </ol>
         </nav>
     </header>
-    <section>
-        <div id="hero" class="border"></div>
-        <div id="cover-info">
-            <ul>
-                <li>Tailor</li>
-                <li>Patternmaker</li>
-                <li>Designer</li>
-            </ul>
-            <img src="assets/images/profile-photo.jpg" alt="Photo of the owner" id="photo" class="border">
-        </div>
-    </section>
-    <section id="about">
-        <h2>About</h2>
-        <div class="left floatblock">
-            <p>Do you need stage costumes for an upcoming show, a weddingdress for you upcoming wedding or do you just want to shorten your jeans or fix that button that is hanging loose?</p>
-            <br>
-            <p>Dont worry, I will help you!</p>
-            <br>
-            <p>I have experience in working with all kinds of fabric</p>
-        </div>
-        <div class="right floatblock">
-            <h3>Previous collaborations</h3>
-            <div id="collaborations">
-                <ul id="collaborations-left">
-                    <li>Circus Cirkör</li>
-                    <li>Anna Kjellsdotter</li>
-                    <li>Our Legacy</li>
+    <main>
+        <!--Hero image-->
+        <section>
+            <div id="hero" class="border"></div>
+            <div id="cover-info">
+                <ul>
+                    <li>Tailor</li>
+                    <li>Patternmaker</li>
+                    <li>Designer</li>
                 </ul>
-                <ul id="collaborations-right">
-                    <li>Confidencen</li>
-                    <li>Tillskärarakademin</li>
-                    <li>Dramaten</li>
-                </ul>
+                <img src="assets/images/profile-photo.jpg" alt="Photo of the owner" id="photo" class="border">
             </div>
-        </div>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div id="images">
-            <img src="assets/images/gallery-dancers.jpg" alt="Charleston dancers in glittery dresses." class="border">
-            <img src="assets/images/gallery-girl-bluedress.jpg" alt="Girl in blue dress." class="border">
-            <img src="assets/images/gallery-girl-blackandwhite.jpg" alt="Girl in black and white." class="border">
-            <img src="assets/images/gallery-illustrations.jpg" alt="Designdrawings." class="border">           
-            <img src="assets/images/gallery-weddingdress.jpg" alt="Girl in a weddingdress." class="border">
-            <img src="assets/images/gallery-greendresses.jpg" alt="Girls in green dresses." class="border">
-            <img src="assets/images/gallery-wardrobe.jpg" alt="Glittery dresses in a wardrobe" class="border">
-            <img src="assets/images/gallery-girl-sitting.jpg" alt="Girl in a brown jumpsuit." class="border">
-            <img src="assets/images/gallery-ballerina.jpg" alt="Ballerina dancing." class="border">            
-            <img src="assets/images/gallery-girl-reddress.jpg" alt="Girl in red dress." class="border">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="left floatblock">
-            <p>Come visit me in my Studio or get in touch using the form provided</p>
-            <br>
-            <p>Rydbergs Ateljé</p>
-            <p>Essinge Brogata 6</p>
-            <p>112 57 Stockholm</p>
-            <div>
-                <iframe class="border" aria-label="Map to show where to visit me (opens in new tab)" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.4612125179508!2d18.00512171596222!3d59.32525338165743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f762db965a999%3A0xda0cfef2349eeed1!2sEssinge%20Brogata%206%2C%20112%2061%20Stockholm!5e0!3m2!1ssv!2sse!4v1641992566919!5m2!1ssv!2sse"></iframe>
-            </div>    
-        </div>
-        <div class="right floatblock">
-            <form method="post" action="#">
-                <p>Please enter your contact information and a short message describing you request. I will get back to you as soon as possible.</p>
+        </section>
+        <!--About-->
+        <section id="about">
+            <h2>About</h2>
+            <div class="left floatblock">
+                <p>Do you need stage costumes for an upcoming show, a weddingdress for you upcoming wedding or do you just want to shorten your jeans or fix that button that is hanging loose?</p>
                 <br>
-                <div>
-                    <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" class="block" placeholder="Full name" name="Full name" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="phone">Phone</label>
-                        <input type="text" id="phone" class="block" placeholder="Phone number" name="Phone number" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="block" placeholder="Emailaddress" name="email" required>
-                    </fieldset>
+                <p>Dont worry, I will help you!</p>
+                <br>
+                <p>I have experience in working with all kinds of fabric</p>
+            </div>
+            <div class="right floatblock">
+                <h3>Previous collaborations</h3>
+                <div id="collaborations">
+                    <ul id="collaborations-left">
+                        <li>Circus Cirkör</li>
+                        <li>Anna Kjellsdotter</li>
+                        <li>Our Legacy</li>
+                    </ul>
+                    <ul id="collaborations-right">
+                        <li>Confidencen</li>
+                        <li>Tillskärarakademin</li>
+                        <li>Dramaten</li>
+                    </ul>
                 </div>
-                <textarea name="message" cols="69" rows="10" class="block" placeholder="Write your message here" required></textarea>
+            </div>
+        </section>
+        <!--Gallery-->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div id="images">
+                <img src="assets/images/gallery-dancers.jpg" alt="Charleston dancers in glittery dresses." class="border">
+                <img src="assets/images/gallery-girl-bluedress.jpg" alt="Girl in blue dress." class="border">
+                <img src="assets/images/gallery-girl-blackandwhite.jpg" alt="Girl in black and white." class="border">
+                <img src="assets/images/gallery-illustrations.jpg" alt="Designdrawings." class="border">           
+                <img src="assets/images/gallery-weddingdress.jpg" alt="Girl in a weddingdress." class="border">
+                <img src="assets/images/gallery-greendresses.jpg" alt="Girls in green dresses." class="border">
+                <img src="assets/images/gallery-wardrobe.jpg" alt="Glittery dresses in a wardrobe" class="border">
+                <img src="assets/images/gallery-girl-sitting.jpg" alt="Girl in a brown jumpsuit." class="border">
+                <img src="assets/images/gallery-ballerina.jpg" alt="Ballerina dancing." class="border">            
+                <img src="assets/images/gallery-girl-reddress.jpg" alt="Girl in red dress." class="border">
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="left floatblock">
+                <p>Come visit me in my Studio or get in touch using the form provided</p>
                 <br>
-                <input type="checkbox" name="Monthly newsletter" id="newsletter">
-                <label for="newsletter" style="display: inline;">Sign up for monthly newletter</label>
-                <br>
-                <input type="submit" value="Send" class="block" id="submit">
-            </form>
-        </div>
-    </section>
+                <p>Rydbergs Ateljé</p>
+                <p>Essinge Brogata 6</p>
+                <p>112 57 Stockholm</p>
+                <div>
+                    <iframe class="border" aria-label="Map to show where to visit me (opens in new tab)" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.4612125179508!2d18.00512171596222!3d59.32525338165743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f762db965a999%3A0xda0cfef2349eeed1!2sEssinge%20Brogata%206%2C%20112%2061%20Stockholm!5e0!3m2!1ssv!2sse!4v1641992566919!5m2!1ssv!2sse"></iframe>
+                </div>    
+            </div>
+            <div class="right floatblock">
+                <form method="post" action="#">
+                    <p>Please enter your contact information and a short message describing you request. I will get back to you as soon as possible.</p>
+                    <br>
+                    <div>
+                        <fieldset>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="block" placeholder="Full name" name="Full name" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" class="block" placeholder="Phone number" name="Phone number" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="block" placeholder="Emailaddress" name="email" required>
+                        </fieldset>
+                    </div>
+                    <textarea name="message" cols="69" rows="10" class="block" placeholder="Write your message here" required></textarea>
+                    <br>
+                    <input type="checkbox" name="Monthly newsletter" id="newsletter">
+                    <label for="newsletter" style="display: inline;">Sign up for monthly newletter</label>
+                    <br>
+                    <input type="submit" value="Send" class="block" id="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Footer with social media links-->
     <footer>
         <p>Find me on social media:</p>
         <a href="https://www.facebook.com/" target="_blank" aria-label="Go to my Facebook page (opens in new tab)"><i class="fab fa-facebook-square"></i></a>
