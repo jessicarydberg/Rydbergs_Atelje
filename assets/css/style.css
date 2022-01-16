@@ -28,7 +28,7 @@ ul li {
     margin: 1rem;
 }
 
-header, section {
+header, section, footer {
     margin: 0.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -46,7 +46,7 @@ h1 {
     margin: 2rem;
     text-align: center;
     font-size: 240%;
-    padding-top: 3rem;
+    padding-top: 2.2rem;
     padding-right: 25rem;
 }
 
@@ -183,19 +183,13 @@ form {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #edd0b3;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    height: 1.5rem;
-    border: solid;
-    border-width: 0.03rem;
 }
 
-footer p {
+footer a {
     display: inline;
     padding-bottom: 0.2rem;
+    font-size: 2rem;
+    padding: 1.2rem;
 }
 
 
@@ -215,7 +209,7 @@ footer p {
         width: 90%;
     }
 
-    nav, h1 {
+    h1 {
         padding: 0;
         text-align: center;
     }
