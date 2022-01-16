@@ -36,7 +36,8 @@ header, section {
 }
 
 a:hover, #submit:hover {
-    color: gray
+    color: #812b0a;
+
 }
 
 /* Header */
