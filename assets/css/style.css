@@ -43,9 +43,11 @@ a:hover, #submit:hover {
 /* Header */
 
 h1 {
+    margin: 2rem;
     text-align: center;
     font-size: 240%;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-right: 25rem;
 }
 
 nav {
