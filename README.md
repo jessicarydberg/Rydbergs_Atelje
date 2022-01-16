@@ -1,6 +1,4 @@
 
-[used this to pick color from hero image](https://imagecolorpicker.com/)
-
 # Rydbergs Ateljé
 Rydbergs Ateljé is a website that provides information about the person behind the sewing- and design- studio called Rydbergs Ateljé. The website helps the owner and the potential costumers to comunicate. It shows the costumers what kind of help you can expect in Rydbergs Ateljé and how to get in touch with the owner. It also helps the owner to show off her work and reach out to new costumers
 
@@ -64,8 +62,21 @@ This section is also possible to reach using the navigation bar.</li>
 </ul>
 
 ## Validator Testing
+### HTML
+<ul>
+    <li>No errors found when passing through <a src="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F">W3C validator</a></li>
+    <li>One warning was found when passing through <a src="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F">W3C validator.</a> It warns about the first sections not containing a heading, such as h2-h6 element. My opinion is that the section looks really good without heading and I want the listitems to be in the same size as other list items on the website so changing it to an h2-h6 element will only make the css code for it more complicated and not clean. So I chose to keep my website as it is.</li>
+</ul>
+
+### CSS
+<ul>
+    <li>No errors found when passing through <a src="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F">(Jigsaw) validator.</a></li>    
+</ul>
 
 ## Unfixed bugs
+<ul>
+    <li>No bugs discovered</li>
+</ul>
 
 # Deployment
 
@@ -75,22 +86,24 @@ This section is also possible to reach using the navigation bar.</li>
 <li>From the source section drop-down menu, select the Master Branch</li>
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 
-<li>The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html</li>
+<li>The live link can be found here - https://jessicarydberg.github.io/Rydbergs_Atelje/</li>
 </ul>
 
 # Credits
 <ul>
-<li>This page gave me some usefull code https://www.w3schools.com</li>
+<li>This page helped me some usefull elements: https://www.w3schools.com</li>
 </ul>
-## Media
 
 ## Content
 <ul>
-<li>Used this to pick color from hero image: https://imagecolorpicker.com/</li>
-<li>Google fonts</li>
-<li>font awesome for footer links</li>
-<li>spencers links to pictures</li>
-<li>name of the photographer of my own photos? or just "Jessica Rydbergs private photos"</li>
+    <li>This website was used for picking a color from the hero image and use it as background color for the footer: https://imagecolorpicker.com/</li>
+    <li>The font styles are imported from this website: https://fonts.google.com/</li>
+    <li>The icons for social media links are were taken from this website: https://fontawesome.com/</li>
+    <li>The mockup presented in the readme file was made using this website: http://techsini.com/multi-mockup/index.php</li>
+    <li>Instructions on how to make the gallery layot were taken from code institutes "Love Running" project. https://codeinstitute.net/se/</li>
+</ul>
 
-<li>Find out a way to remove classes when screens a smaller, then I can give h1 and nav class "left" and "right"</li>
+## Media
+<ul>
+    <li><li>The hero image and some images in the gallery was picked from this website: https://unsplash.com/. All the other pictures are my private photographes</li></li>
 </ul>
