@@ -86,24 +86,23 @@ This section is also possible to reach using the navigation bar.</li>
 <li>From the source section drop-down menu, select the Master Branch</li>
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 
-<li>The live link can be found here - https://jessicarydberg.github.io/Rydbergs_Atelje/</li>
+<li>The live link can be found here: <a src"https://jessicarydberg.github.io/Rydbergs_Atelje/>Rydbergs Ateljé</a></li>
 </ul>
 
 # Credits
 <ul>
-<li>This page helped me some usefull elements: https://www.w3schools.com</li>
+<li><a src="https://www.w3schools.com">w3schools</a> helped me some usefull elements.</li>
 </ul>
-
 ## Content
 <ul>
-    <li>This website was used for picking a color from the hero image and use it as background color for the footer: https://imagecolorpicker.com/</li>
-    <li>The font styles are imported from this website: https://fonts.google.com/</li>
-    <li>The icons for social media links are were taken from this website: https://fontawesome.com/</li>
-    <li>The mockup presented in the readme file was made using this website: http://techsini.com/multi-mockup/index.php</li>
-    <li>Instructions on how to make the gallery layot were taken from code institutes "Love Running" project. https://codeinstitute.net/se/</li>
+    <li><a src="https://imagecolorpicker.com/">imagecolorpicker</a> was used for picking a color from the hero image and use it as background color for the footer.</li>
+    <li>The font styles are imported from <a src="https://fonts.google.com/">google fonts.</a></li>
+    <li>The icons for social media links are were taken from <a src="https://fontawesome.com/">font awesome.</a></li>
+    <li>The mockup presented in the readme file was made using <a src="http://techsini.com/multi-mockup/index.php">techsini.</a></li>
+    <li>Instructions on how to make the gallery layot were taken from <a src="https://codeinstitute.net/se/">Code institutes</a> "Love Running" project.</li>
 </ul>
 
 ## Media
 <ul>
-    <li><li>The hero image and some images in the gallery was picked from this website: https://unsplash.com/. All the other pictures are my private photographes</li></li>
+    <li><li>The hero image and some images in the gallery was picked from <a src="https://unsplash.com/">unsplash</a>. All the other pictures are my private photographes</li></li>
 </ul>
