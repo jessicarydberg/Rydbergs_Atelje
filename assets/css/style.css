@@ -43,7 +43,7 @@ a:hover, #submit:hover {
 /* Header */
 
 h1 {
-    margin: 2rem;
+    margin-top: 2rem;
     text-align: center;
     font-size: 240%;
     padding-top: 2.2rem;
@@ -133,7 +133,7 @@ h3 {
 /* Gallery section */
 
 #images {
-    width: 90%;
+    text-align: center;
     line-height: 3rem;
     column-count: 4;
     padding: 2rem;
@@ -269,10 +269,6 @@ footer a {
         font-size: 180%
     }
 
-    ol {
-        height: 3rem;
-    }
-
     #images {
         column-count: 1;
         height: auto;
@@ -311,5 +307,14 @@ footer a {
 
     #photo {
         margin-top: 1rem;
+    }
+    nav {
+        height: 1.5rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    ol li {
+        padding: 0.2rem;
     }
 }
