@@ -67,13 +67,12 @@ This section is also possible to reach using the navigation bar.</li>
 ## Validator Testing
 ### HTML
 <ul>
-    <li>No errors found when passing through <a src="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F">W3C validator</a></li>
-    <li>One warning was found when passing through <a src="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F">W3C validator.</a> It warns about the first sections not containing a heading, such as h2-h6 element. My opinion is that the section looks really good without heading and I want the listitems to be in the same size as other list items on the website so changing it to an h2-h6 element will only make the css code for it more complicated and not clean. So I chose to keep my website as it is.</li>
+    <li>No errors found when passing through W3C validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F</li>
 </ul>
 
 ### CSS
 <ul>
-    <li>No errors found when passing through <a src="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">(Jigsaw) validator.</a></li>    
+    <li>No errors found when passing through (Jigsaw) validator: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjessicarydberg.github.io%2FRydbergs_Atelje%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en/</li>    
 </ul>
 
 ## Unfixed bugs
@@ -92,24 +91,23 @@ This section is also possible to reach using the navigation bar.</li>
     <li>When everything was done I navigated to the Settings tab in the GitHub repository.</li>
     <li>Then scrolled down to "GitHub Pages" section and clicked "Check it out here!" link</li>
     <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
-    <li>The live link can be found here: <a src="https://jessicarydberg.github.io/Rydbergs_Atelje/">Rydbergs Ateljé</a></li>
+    <li>The live link can be found here: https://jessicarydberg.github.io/Rydbergs_Atelje/</li>
 </ul>
 
 # Credits
 <ul>
-<li><a src="https://www.w3schools.com">w3schools</a> helped me some usefull elements.</li>
+<li>https://www.w3schools.com helped me some usefull elements.</li>
 </ul>
 
 ## Content
 <ul>
-    <li><a src="https://imagecolorpicker.com/">imagecolorpicker</a> was used for picking a color from the hero image and use it as background color for the footer.</li>
-    <li>The font styles are imported from <a src="https://fonts.google.com/">google fonts.</a></li>
-    <li>The icons for social media links are were taken from <a src="https://fontawesome.com/">font awesome.</a></li>
-    <li>The mockup presented in the readme file was made using <a src="http://techsini.com/multi-mockup/index.php">techsini.</a></li>
-    <li>Instructions on how to make the gallery layot were taken from <a src="https://codeinstitute.net/se/">Code institutes</a> "Love Running" project.</li>
+    <li>https://imagecolorpicker.com/ was used for picking a color from the hero image and use it as background color for the footer.</li>
+    <li>The font styles are imported from https://fonts.google.com/</li>
+    <li>The icons for social media links are were taken from https://fontawesome.com/</a></li>
+    <li>The mockup presented in the readme file was made using http://techsini.com/multi-mockup/index.php/</li>
 </ul>
 
 ## Media
 <ul>
-    <li><li>The hero image and some images in the gallery was picked from <a src="https://unsplash.com/">unsplash</a>. All the other pictures are my private photographes</li></li>
+    <li>The hero image and some images in the gallery was picked from https://unsplash.com/. All the other pictures are my private photographes</li>
 </ul>
