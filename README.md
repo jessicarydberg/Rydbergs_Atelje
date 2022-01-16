@@ -6,15 +6,16 @@ Rydbergs Ateljé is a website that provides information about the person behind 
 
 ### Navigation Bar
 <ul>
-    <li>You will find the navigationbar with three links at the right top of the page. Theese helps the user to navigate faster down the page in those cases where they only need some specific information. The links turn light grey when you hover over them to show the user that "this is a link".</li>
+    <li>You will find the navigationbar with for links at the right top of the page. Theese helps the user to navigate faster down the page in those cases where they only need some specific information. The links turn brown when you hover over them to show the user that "this is a link".</li>
+    <li>The navigation bar has a fixed position which gives the user easy access to it regardless on where you are at the page</li>
 </ul>
-<img src="assets/images/screenshot-header.png" alt="navigation bar">
+<img src="assets/images/screenshot-navigation-bar.jpg" alt="navigation bar">
 
-### Welcome section
+### Home section
 <ul>
-    <li>The first section the user meets while entering the site is designed to present a clear picture of where they have come and what they will find here. They will see a picture of the person behind the work they are interested in and some short and easy information about what skills she have. The colors, pictureas and design will give the visitor a feeling of what kind of design and style her work goes in line with.</li>
+    <li>The first section is designed to present a clear picture of where they have come and what they will find here. First the logo telling the user what company this website is about. Then they will see a picture of the person behind the company and some short and easy information about what skills she have. The colors, pictures and design will give the visitor a feeling of what kind of design and style her work goes in line with.</li>
 </ul>
-<img src="assets/images/screenshot-hero.png" alt="Welcome section">
+<img src="assets/images/screenshot-hero-image.jpg" alt="Welcome section">
 
 ### About section
 <ul>
@@ -33,7 +34,7 @@ This section is also possible to reach using the navigation bar.</li>
 ### Contact
 <ul>
     <li>The forth section provides information about where or how to get in touch with Rydbergs Ateljé. It shows the adress and a map to where the studio is located. If you click on the map it will open up in google maps where the user easier can understand where and how to find the studio.</li>
-    <li>Here you can also find a simple form where the user can fill in contact information and a short message to reach out to the owner in an easy way.</li>
+    <li>Here you can also find a simple form where the user can fill in contact information and a short message to reach out to the owner in an easy way</li>
 </ul>
 <img src="assets/images/screenshot-contact.jpg" alt="Contact section">
 
@@ -47,8 +48,6 @@ This section is also possible to reach using the navigation bar.</li>
 <ul>
     <li>A copy of the whole page but with all swedish text, two links in the header with to navigate between the two languages</li>
     <li>Make all the list items beneath "Previous collaborations" also work as links to the websites of theese companys, this will help the user understand more about the work they do if they dont recognise the company by the name</li>
-    <li>Give the navigation bar a fixed position and add a "home" link. This will give the user access to navigate through the page even when they already scrolled down a bit.</li>
-    <li>Make social media links bigger or at least with bigger space between eachother so it is easier to klick on mobile phone where you use you fingers instead of mouse.</li>
 </ul>
 
 ## Testing
