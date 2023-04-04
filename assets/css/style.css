@@ -37,7 +37,10 @@ header, section, footer {
 
 a:hover, #submit:hover {
     color: #812b0a;
+}
 
+#home, #about, #gallery, #contact {
+    padding-top: 35px;
 }
 
 /* Header */
@@ -65,12 +68,6 @@ nav {
 ol li {
     padding-right: 1rem;
 }
-
-/*
-nav {
-    padding-right: 3rem;
-}
-*/
 
 ol li {
     display: inline;
