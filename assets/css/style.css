@@ -43,7 +43,8 @@ a:hover, #submit:hover {
     padding-top: 45px;
 }
 
-#about, #gallery, #contact, #openhours, #store, #courses {
+#underconstruction {
+/* #about, #gallery, #contact, #openhours, #store, #courses { */
     display: none;
 }
 
