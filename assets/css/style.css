@@ -39,8 +39,8 @@ a:hover, #submit:hover {
     color: #812b0a;
 }
 
-#home, #about, #gallery, #contact {
-    padding-top: 35px;
+#home, #about, #gallery, #contact, #openhours, #store, #courses {
+    padding-top: 45px;
 }
 
 /* Header */
@@ -250,14 +250,19 @@ footer a {
         font-size: 110%;
         margin: 0.2rem;
     }
-        
+    
     ul li {
         font-size: 140%;
         margin: 0.5rem;
     }
-
+    
     body { 
         overflow-x: hidden;
+    }
+
+    nav {
+        text-align: center;
+        padding: 0;
     }
 }
 
@@ -304,11 +309,6 @@ footer a {
 
     #photo {
         margin-top: 1rem;
-    }
-    nav {
-        height: 1.5rem;
-        text-align: center;
-        padding: 0;
     }
 
     ol li {
