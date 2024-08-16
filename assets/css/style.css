@@ -39,11 +39,11 @@ a:hover, #submit:hover {
     color: #812b0a;
 }
 
-#home, #about, #gallery, #contact, #openhours, #store, #courses {
+header {
     padding-top: 45px;
 }
 
-#about, #gallery, #contact, #openhours, #store, #courses {
+#underconstruction {
     display: none;
 }
 
@@ -104,6 +104,7 @@ ol li {
     position: relative;
     padding-left: 20%;
     padding-top: 5rem;
+    padding-bottom: 23rem;
 }
 
 #photo {
@@ -112,6 +113,7 @@ ol li {
     margin-top: 5rem;
     border-radius: 50%;
     filter: sepia(30%);
+    position: absolute;
 }
 
 /* About section */
