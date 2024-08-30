@@ -293,17 +293,8 @@ footer a {
         height: auto;
     }
 
-    #about {
-        text-align: center;
-        padding-top: 2rem;
-    }
-
     fieldset {
         display: block;
-    }
-
-    #about h2 {
-        text-align: left;
     }
 
     #cover-info li {
