@@ -75,7 +75,7 @@ ol li {
     padding-right: 1rem;
 }
 
-ol li {
+.inline-list li {
     display: inline;
 }
 
@@ -197,6 +197,12 @@ footer a {
     padding: 1.2rem;
 }
 
+/* Studio page */
+
+.dots {
+    list-style-type: inherit;
+    padding-left: inherit;
+}
 
 /* media queries */
 
