@@ -201,7 +201,11 @@ footer a {
 
 .dots {
     list-style-type: inherit;
-    padding-left: inherit;
+    padding-left: 8vw;
+}
+
+.info {
+    font-size: small;
 }
 
 /* media queries */
