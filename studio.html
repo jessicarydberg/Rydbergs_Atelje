@@ -69,21 +69,41 @@
             </section>
             <section>
                 <br>
-                <p>Här kommer du så småningom kunna se bilder på ateljén och dess utrustning. Till dess, kontakta mig för mer information och bokning på
+                <p>För mer information och bokning: 
                     <a href="mailto:kontakt@rydbergsatelje.se">kontakt@rydbergsatelje.se</a></p>
-                <!-- <div id="images">
+                <div id="images">
                     <img src="assets/images/Lokal (1).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (2).jpg" alt="Image of studio" class="border">
-                    <img src="assets/images/Lokal (3).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (4).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Lokal (3).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (5).jpg" alt="Image of studio" class="border">
-                    <img src="assets/images/Lokal (6).jpg" alt="Image of studio" class="border">
-                    <img src="assets/images/Lokal (7).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (8).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Lokal (7).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Lokal (6).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (9).jpg" alt="Image of studio" class="border">
                     <img src="assets/images/Lokal (10).jpg" alt="Image of studio" class="border">
-                </div> -->
+                    <img src="assets/images/Lokal (11).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Lokal (12).jpg" alt="Image of studio" class="border">
+                </div>
+                <div class="popup-image">
+                    <span>&times;</span>
+                    <img src="assets/images/Lokal (1).jpg" alt="" class="border">
+                </div>
             </section>
+        <script>
+
+            document.querySelectorAll('#images img').forEach(image => {
+                image.onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'block';
+                    document.querySelector('.popup-image img').src = image.getAttribute('src');
+                }
+            });
+
+            document.querySelector('.popup-image span').onclick = () => {
+                document.querySelector('.popup-image').style.display = 'none';
+            }
+
+        </script>
         </main>
         <!-- <footer>
             <a href="https://www.facebook.com/" target="_blank" aria-label="Go to my Facebook page (opens in new tab)"><i class="fab fa-facebook-square"></i></a>

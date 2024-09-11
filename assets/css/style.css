@@ -154,6 +154,40 @@ h3 {
     width: 90%;
 }
 
+img:hover {
+    transform: scale(1.05);
+}
+
+.popup-image {
+    position: fixed;
+    top: 0; left:0;
+    background: rgba(0, 0, 0, 0.733);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span {
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 1%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
 /* Contact section */
 
 iframe {

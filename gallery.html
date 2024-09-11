@@ -41,7 +41,25 @@
                 <img src="assets/images/gallery-ballerina.jpg" alt="Ballerina dancing." class="border">            
                 <img src="assets/images/gallery-girl-reddress.jpg" alt="Girl in red dress." class="border">
             </div>
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="assets/images/Lokal (1).jpg" alt="" class="border">
+            </div>
         </section>
+    <script>
+
+        document.querySelectorAll('#images img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+
+    </script>
         </main>
         <!-- <footer>
             <a href="https://www.facebook.com/" target="_blank" aria-label="Go to my Facebook page (opens in new tab)"><i class="fab fa-facebook-square"></i></a>
