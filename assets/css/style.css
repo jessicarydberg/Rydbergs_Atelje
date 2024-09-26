@@ -11,6 +11,15 @@ body {
     background: rgb(233, 199, 155);
 }
 
+.left {
+    position: absolute;
+    padding-right: 60%;
+}
+
+.right {
+    position: absolute;
+    padding-left: 40%;
+}
 
 h1, h2, h3 {
     font-family: Artifika, sans-serif;
@@ -142,7 +151,7 @@ h3 {
 
 /* Gallery section */
 
-#images {
+.images {
     text-align: center;
     line-height: 3rem;
     column-count: 4;
@@ -150,7 +159,7 @@ h3 {
     filter: sepia(30%);
 }
 
-#images img {
+.images img {
     width: 90%;
 }
 
@@ -246,7 +255,7 @@ nav a {
 
 .dots {
     list-style-type: inherit;
-    padding-left: 8vw;
+    padding-left: 4vw;
 }
 
 .circles {
@@ -256,6 +265,10 @@ nav a {
 
 .info {
     font-size: small;
+}
+
+.right .images {
+    column-count: 3;
 }
 
 /* media queries */
@@ -272,6 +285,8 @@ nav a {
     .left, .right {
         float: none;
         width: 90%;
+        position: relative;
+        padding: 0;
     }
 
     h1{
@@ -279,7 +294,7 @@ nav a {
         text-align: center;
     }
 
-    #images {
+    .images {
         column-count: 3;
     }
 
@@ -310,9 +325,8 @@ nav a {
         list-style: none;
     }
 
-    #images {
+    .images, .right .images {
         column-count: 2;
-        height: 251vw;
     }
     
     header, section {
@@ -352,7 +366,7 @@ nav a {
         font-size: 180%
     }
 
-    #images {
+    .images, .right .images {
         column-count: 1;
         height: auto;
     }
