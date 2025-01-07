@@ -14,12 +14,53 @@ body {
     flex-direction: column;
 }
 
+.collapsible {
+    background-color: rgb(233, 199, 155);
+    color: black;
+    cursor: pointer;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    margin-left: 10vw;
+}
+
+button {
+    text-align: center;
+}
+  
+button p:hover {
+    color: #812b0a;
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.left {
+    position: absolute;
+    padding-right: 60%;
+}
+
+.leftaline {
+    float: left;
+    padding-left: 2vw;
+}
+
+.right {
+    position: absolute;
+    padding-left: 40%;
+}
 
 h1, h2, h3 {
     font-family: Artifika, sans-serif;
 }
 
-a {
+a, button {
     font-size: inherit;
     color: inherit;
 }
@@ -71,7 +112,7 @@ nav {
     border: solid;
     border-width: 0.03rem;
     z-index: 2;
-    padding-right: 2rem;
+    padding: 0.5vw;
 }
 
 ol li {
@@ -151,7 +192,7 @@ h3 {
 
 /* Gallery section */
 
-#images {
+.images {
     text-align: center;
     line-height: 3rem;
     column-count: 4;
@@ -159,7 +200,7 @@ h3 {
     filter: sepia(30%);
 }
 
-#images img {
+.images img {
     width: 90%;
 }
 
@@ -256,7 +297,7 @@ nav a {
 
 .dots {
     list-style-type: inherit;
-    padding-left: 8vw;
+    padding-left: 4vw;
 }
 
 .circles {
@@ -268,6 +309,10 @@ nav a {
     font-size: small;
 }
 
+.right .images {
+    column-count: 3;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1230px) {
@@ -275,6 +320,12 @@ nav a {
     ul li {
         margin: 1rem 0 1rem 0;
     }
+
+    .collapsible {
+        width: 90%;
+        margin-left: 2vw;
+    }
+
 }
 
 @media screen and (max-width: 1130px) {
@@ -282,6 +333,8 @@ nav a {
     .left, .right {
         float: none;
         width: 90%;
+        position: relative;
+        padding: 0;
     }
 
     h1{
@@ -289,7 +342,7 @@ nav a {
         text-align: center;
     }
 
-    #images {
+    .images {
         column-count: 3;
     }
 
@@ -320,9 +373,8 @@ nav a {
         list-style: none;
     }
 
-    #images {
+    .images, .right .images {
         column-count: 2;
-        height: 251vw;
     }
     
     header, section {
@@ -362,7 +414,7 @@ nav a {
         font-size: 180%
     }
 
-    #images {
+    .images, .right .images {
         column-count: 1;
         height: auto;
     }

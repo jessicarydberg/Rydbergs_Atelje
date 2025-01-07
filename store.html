@@ -7,13 +7,27 @@
         <meta name="keywords" content="sömmerska, skräddare, mode, klädbutik, secondhand, syateljé, symaskin, sykurs">
         <script src="https://kit.fontawesome.com/cce6127ea2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/style.css">
+                        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FV2E411888"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FV2E411888');
+        </script>
         <title>Rydbergs Ateljé</title>
     </head>
     <body>
         <!--Navigation bar-->
         <nav>
             <ol class="inline-list">
+<<<<<<< HEAD
                 <li><a href="https://www.instagram.com/rydbergs_atelje/" target="_blank" aria-label="Go to my Instagram page (opens in new tab)"><i class="fab fa-instagram-square floatleft"></i></a></li>
+=======
+                <li><a href="https://www.instagram.com/rydbergs_atelje/" target="_blank" aria-label="Go to my Instagram page (opens in new tab)"><i class="fab fa-instagram-square leftaline"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61566834539635" target="_blank" aria-label="Go to my Facebook page (opens in new tab)"><i class="fab fa-facebook-square leftaline"></i></a></li>
+>>>>>>> a5cfe5f0b62be93f930679e902c4201d4678254c
                 <li><a href="index.html" aria-label="Go to the contact section of the page">Hem</a></li>
                 <!-- <li><a href="dev-4366.html" aria-label="Go to the contact section of the page">Hem</a></li> -->
                 <li><a href="studio.html" aria-label="Go to the contact section of the page">Ateljén</a></li>
@@ -29,6 +43,7 @@
             <h1>Butiken</h1>
         </header>
         <main>
+<<<<<<< HEAD
             <section>
                 <div>
                     <p>I butiken hittar du just nu utförsäljning av diverse second hand varor: damkläder, accessoarer, tyger och skor</p>
@@ -79,9 +94,59 @@
                     <img src="assets/images/Lokal (1).jpg" alt="" class="border">
                 </div>
             </section> -->
+=======
+            <section class="left">
+                <br>
+                <p>I butiken kan du fynda secondhandvaror i form av damkläder, accessoarer, smycken, skor och så vidare.</p>
+                <br>
+                <p>Längre fram kommer du kunna hitta kläder och andra textila varor tillverkade i ateljén, håll dig uppdaterad här på hemsidan eller på 
+                    <a href="https://www.instagram.com/rydbergs_atelje/" target="_blank" aria-label="Go to my Instagram page (opens in new tab)">instagram.</a>
+                </p>
+                <br>
+                <section>
+                    <h3>Fasta öppettider:</h3>
+                    <h3>Varannan Lördag och Söndag, udda veckor!
+                    </h3>
+                    <ol class="dots inline-list">
+                        <li>Lördag</li>
+                        <li>11:00 - 15:00</li>
+                    </ol>
+                    <ol class="dots inline-list">
+                        <li>Söndag</li>
+                        <li>11:00 - 15:00</li>
+                    </ol>
+                    <br>
+                    <p>Andra dagar hålls butiken öppet ibland men detta bestäms oftast med kort varsel, går du förbi och ser att "öppet" flaggan hänger ute är du varmt välkommen in.</p>
+                    <p>Dessa öppettider annonseras även ut på <a href="https://www.instagram.com/rydbergs_atelje/" target="_blank" aria-label="Go to my Instagram page (opens in new tab)">instagram</a>,
+                        så håll gärna utkik där också.</p>
+                    <br>
+                </section>
+                <p>För frågor och mer info, kontakta mig på: <a href="mailto:kontakt@rydbergsatelje.se">kontakt@rydbergsatelje.se</a></p>
+            </section>
+            <section class="right">
+                <br>
+                <h3 style="text-align: center;">Urval av produkter som finns i butiken just nu:</h3>
+                <div class="images">
+                    <img src="assets/images/Store (11).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (1).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (4).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (2).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (13).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (3).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (8).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (6).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (9).jpg" alt="Image of studio" class="border">
+                    <img src="assets/images/Store (10).jpg" alt="Image of studio" class="border">
+                </div>
+                <div class="popup-image">
+                    <span>&times;</span>
+                    <img src="assets/images/Store (1).jpg" alt="" class="border">
+                </div>
+            </section>
+>>>>>>> a5cfe5f0b62be93f930679e902c4201d4678254c
         <script>
 
-            document.querySelectorAll('#images img').forEach(image => {
+            document.querySelectorAll('.images img').forEach(image => {
                 image.onclick = () => {
                     document.querySelector('.popup-image').style.display = 'block';
                     document.querySelector('.popup-image img').src = image.getAttribute('src');
