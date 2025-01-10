@@ -9,9 +9,6 @@
 body {
     font-family: Asul, sans-serif;
     background: rgb(233, 199, 155);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 .collapsible {
@@ -126,12 +123,6 @@ ol li {
 
 .inline-list li {
     display: inline;
-    font-size: large;
-}
-
-.floatleft {
-    float: left;
-    padding: 1vh;
 }
 
 /* Hero image */
@@ -278,7 +269,6 @@ form {
 /* Footer */
 footer {
     text-align: center;
-    margin-top: auto;
 }
 
 footer a {
