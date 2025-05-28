@@ -45,9 +45,49 @@
                 <p>Svårt att hitta rätt passform för just dig? Jag hjälper gärna till att ändra och anpassa så gott det går!</p>
                 <br>
                 <section>
+                <button class="collapsible border"><p>Klädbyte och kvällsshopping</p></button>
+                <div class="content">
+                    <h2>Klädbyte och kvällsshopping:</h2>
+                    <section>
+                        <p>✨ Klädbytarkväll i Rydbergs Ateljé
+                        Onsdag 11 juni! ✨
+                        <br>
+                        Välkommen på en kväll fylld av stil, bubbel och cirkulärt mode!
+                        <br>
+                        Onsdagen den 11 juni kl. 18.00–21.00 bjuder vi in till klädbytarkväll i butiken.
+                        <br>
+                        👗 Så funkar det:
+                        <br>
+                        • Ta med dig upp till 5 plagg du vill byta bort
+                        <br>
+                        • Lämna in senast kl. 18.30 (Det går också bra att lämna in någon annan dag innan eventet)
+                        <br>
+                        • För varje plagg får du en bytarkupong
+                        <br>
+                        • Kupongen byter du mot ett nytt fynd från avdelningen med byteskläder, bytet startar 18.30 när alla plagg är inlämnade!
+                        <br>
+                        🥂 Under kvällen bjuds det på bubbel, skön stämning och 20% på allt i butiken.
+                        <br>
+                        OBS!
+                        <br>
+                        ❌ Inga trasiga eller urtvättade plagg.
+                        <br>
+                        ❌ Inga träningskläder eller underkläder
+                        <br>
+                        ❌ Inga barnkläder
+                        <br>
+                        ❌ Inga herrkläder
+                        <br>
+                        - Eftersom butiken idag enbart innehåller damkläder så väljer vi att även hålla klädbytet för samma målgrupp, men du är såklart välkommen till butiken oavsett vem du är!
+                        <br>
+                        Det finns inga garantier för att du hittar något du vill byta till dig så ta med dig plagg du är beredd att bli av med, finns dem kvar i slutet och du har kuponger kvar får du såklart hämta hem dina egna kläder igen!
+                        <br>
+                        Man är såklart välkommen på lite kvällsshopping även om man inte vill delta i klädbytet ✨</p>
+                    </section>
+                </div>
+                </section>
+                <section>
                     <h3>Öppettider:</h3>
-                    <h3>Varannan Lördag och Söndag, udda veckor!
-                    </h3>
                     <ol class="dots inline-list">
                         <li>Söndag - Tisdag</li>
                         <li>Stängt</li>
@@ -102,6 +142,22 @@
 
         </script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
         </main>
     </body>
 </html>
