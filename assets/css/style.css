@@ -31,7 +31,7 @@ button {
 }
   
 button p:hover {
-    color: #812b0a;
+    color: #F2E8E8;
 }
   
 .content {
@@ -80,7 +80,7 @@ header, section, footer {
 }
 
 a:hover, #submit:hover {
-    color: #812b0a;
+    color: #F2E8E8;
 }
 
 header {
