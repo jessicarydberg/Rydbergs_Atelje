@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Asul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     margin: 0;
@@ -6,13 +6,16 @@
     border: none;
 }
 
-body {
-    font-family: Asul, sans-serif;
-    background: rgb(233, 199, 155);
+h1, h2, h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+body, p {
+  font-family: "Libre Baskerville", serif;
 }
 
 .collapsible {
-    background-color: rgb(233, 199, 155);
+    background-color: rgb(156, 109, 109, 100);
     color: black;
     cursor: pointer;
     width: 40%;
@@ -51,10 +54,6 @@ button p:hover {
 .right {
     position: absolute;
     padding-left: 40%;
-}
-
-h1, h2, h3 {
-    font-family: Artifika, sans-serif;
 }
 
 a, button {
@@ -102,7 +101,7 @@ h1 {
 
 nav {
     text-align: right;
-    background-color: #edd0b3;
+    background-color: rgb(156, 109, 109, 100);
     width: 100%;
     position: fixed;
     top: 0;
